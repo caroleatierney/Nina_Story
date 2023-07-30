@@ -11,8 +11,10 @@ html {  /* uses element selector */
     height: 130px;
 }
 
-#home.body {    /* uses id selector */
+#homeBody {    /* uses id selector */
     background-image: url('https://i.imgur.com/w0iuJaK.jpg');
+    width:700;
+
     font-size: 22px;
     background-size:cover;
     background-position: center;
@@ -74,7 +76,7 @@ th {
 
 nav { /* uses element selector */
     color:white;
-    background:pink;
+    justify-content: center;
     text-align: center;
     height:130px;
     font-size: 20px;
@@ -86,9 +88,8 @@ nav { /* uses element selector */
     font-size: 22px;
 }
 
-.restOfPagesHeader {
-    /* uses class selector */
-    background-color: rgb(120, 189, 198);
+.restOfPagesHeader {    /* uses class selector */
+    background: pink;
     font-size: 22px;
 }
 
