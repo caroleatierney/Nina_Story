@@ -11,7 +11,7 @@
 
 <body class="restOfPagesBody">
     <!-- Define Header with links inside -->
-    <header class="restOfPagesHeader">
+    <header class="mainHeadersFooters">
         <nav>
             <h2>The Nina Story</h2>
             <a href="index.html">Home</a> |
@@ -20,9 +20,14 @@
         </nav>
     </header>
 
+    < !-- Coolors Palette Widget -->
+        <script src="https://coolors.co/palette-widget/widget.js"></script>
+        <script data-id="019003223309016004">new CoolorsPaletteWidget("019003223309016004", ["0081a7", "00afb9", "fdfcdc", "fed9b7", "f07167"], "8");
+    </script>
+
     <main>
-        <section>
-            <h1>Finding Nina</h1>
+        <h1>Finding Nina</h1>
+        <div>
             <!-- Define paragraphs about Finding Nina -->
             <p> Our family was ready for another dog. We decided we wanted a mini Austrailian
                 Shepherd. We found a breeder and were number 4 on the waiting list. The day before we were going on a
@@ -46,114 +51,122 @@
                 yes, but just in case...she slipped a pill in her mouth and vigorousley rubbed her throat while holding
                 her mouth closed until she swallowed it. We knew it was time to bolt then!</p>
             <hr>
-        </section>
+        </div>
 
-        <section>
-            <h1>The ride home...</h3>
-                <p></p>Poor Nina was very scared and nervous. She was drooling really bad and then started throwing up.
+        <div>
+            <h1>The ride home...</h1>
+                <p>Poor Nina was very scared and nervous. She was drooling really bad and then started throwing up.
                 Then we realized she was full of fleas! My kids were freaked out and didn't want to be near her!</p>
-                <!-- Display ride home photos -->
-                <figure>
+
+            <!-- Display ride home photos -->
+            <div class="flex-container">
+                <div id="borderimage">
                     <a href="https://i.imgur.com/ZpbRnZ7">
                         <img src="https://i.imgur.com/ZpbRnZ7.jpg" title="Filthy Feet!" width="306"; height="408";>
                     </a>
                     <figcaption>Filthy feet!</figcaption>
+                </div>
 
+                <div id="borderimage">
                     <a href="https://i.imgur.com/KBmBd52">
                         <img src="https://i.imgur.com/KBmBd52.jpg" title="Fleas!" width="306"; height="408";>
                     </a>
                     <figcaption>Fleas!</figcaption>
+                </div>
 
+                <div id="borderimage">
                     <a href="https://i.imgur.com/imBeolw">
                         <img src="https://i.imgur.com/imBeolw.jpg" title="Ippy Slime at its worst!" width="306"; height="408";>
                     </a>
                     <figcaption>Ippy slime at its worst!</figcaption>
-                </figure>
-                <hr>
-        </section>
+                </div>
+            </div>
+        </div>
 
-        <section>
+        <div>
             <h1>Other images showcasing her preciousness</h1>
-            <!-- Display a bunch more photos -->
-            <figure>
-                <a href="https://imgur.com/blovDlU"><img src="https://i.imgur.com/blovDlU.jpg" title="Christmas Puff" /></a>
-                <a href="https://imgur.com/gVrlS4x"><img src="https://i.imgur.com/gVrlS4x.jpg" title="My Peeps" /></a>
+                <div class="grid-container">
+                <!-- Display a bunch more photos -->
                 <a href="https://imgur.com/kZKuCsN"><img src="https://i.imgur.com/kZKuCsN.jpg" title="Baby Demi" /></a>
                 <a href="https://imgur.com/2iA6skI"><img src="https://i.imgur.com/2iA6skI.jpg" title="Tongue Out" /></a>
                 <a href="https://imgur.com/QnL6GES"><img src="https://i.imgur.com/QnL6GES.jpg" title="Reading Time" /></a>
                 <a href="https://imgur.com/aXampAc"><img src="https://i.imgur.com/aXampAc.jpg" title="Snuggle Time" /></a>
                 <a href="https://imgur.com/sh9qiMe"><img src="https://i.imgur.com/sh9qiMe.jpg" title="Awkward Watching" /></a>
                 <a href="https://imgur.com/DfuPBaq"><img src="https://i.imgur.com/DfuPBaq.jpg" title="More Snuggling" /></a>
+                <a href="https://imgur.com/blovDlU"><img src="https://i.imgur.com/blovDlU.jpg" title="Christmas Puff" /></a>
+                <a href="https://imgur.com/gVrlS4x"><img src="https://i.imgur.com/gVrlS4x.jpg" title="My Peeps" /></a>
                 <hr>
+            </div>
+        </div>
 
-            <section>
-                <h1>Cute Nina Videos</h1>
+        <div>
+            <h1>Cute Nina Videos</h1>
+            <!-- Display a bunch of videos -->
+            <div class="flex-container">
+            
+            <!-- Pup Cup -->
+            <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/AUooSFDMxIE"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+            </iframe>
 
-                <!-- Display a bunch of videos -->
+            <!-- Nina Swimming -->
+            <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/_0loS1m-y0I"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+            </iframe>
 
-                <!-- Pup Cup -->
-                <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/AUooSFDMxIE"
-                title="YouTube video player"
+            <!-- One for You - One for Me -->
+            <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/ydQw5nqfhb4"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+            </iframe>
+
+            <!-- Bark -->
+            <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/GQOElljMq0w"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+            </iframe>
+
+            <!-- <iframe
+            width="720"
+            height="576"
+            src="https://www.youtube.com/embed/xxxxxxxx"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+            </iframe> -->
+
+            <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/SjZww2Nm6uc" title="YouTube video player"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen>
-                </iframe>
+                allowfullscreen></iframe> -->
 
-                <!-- Nina Swimming -->
-                <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/_0loS1m-y0I"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen>
-                </iframe>
-
-                <!-- One for You - One for Me -->
-                <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/ydQw5nqfhb4"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen>
-                </iframe>
-
-                <!-- Bark -->
-                <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/GQOElljMq0w"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen>
-                </iframe>
-
-                <!-- <iframe
-                width="720"
-                height="576"
-                src="https://www.youtube.com/embed/xxxxxxxx"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen>
-                </iframe> -->
-
-                <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/SjZww2Nm6uc" title="YouTube video player"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen></iframe> -->
-
-            </section>
+        </div>
 
             <!-- Define Footer -->
-            <footer>
+            <footer class="mainHeadersFooters">
                 <p>catzWebz 2023</p>
             </footer>
     </main>
