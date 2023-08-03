@@ -17,14 +17,14 @@ html {
     border-image: url('https: //www.pngall.com/wp-content/uploads/4/Powerpoint-Rectangular-Border-PNG.png') 25 stretch;
 }
 
-#homeHeader {
+/* #homeHeader {
     /* uses id selector */
     color: #0081a7;
     background-color: rgb(244, 151, 142, .5);
     text-align: center;
     width: 100%;
     height: 130px;
-}
+} */
 
 /* #homeBody {
     /* uses id selector */
