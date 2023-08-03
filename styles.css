@@ -9,10 +9,6 @@ ol,
 form{
     color: #0081a7;
 }
-/* 
-h2{
-    color: #0081a7;
-} */
 
 p, li {
     color: #fdfcdc;
@@ -33,7 +29,7 @@ p, li {
 }
 
 h1 {
-    color: #fdfcdc;
+    color: #f07167;
 }
 
 tr {
@@ -112,22 +108,19 @@ nav {
 div.flex-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
     border: 10px #fdfcdc;
     border-style: solidcolor;
-    padding: 10px 40px;
+    padding: 20px 40px;
     background: rgb(170, 104, 104);
 }
 
-.grid-container {
+div.grid-container {
     display: grid;
-    /* height: 200px; */
-    /* border: #fdfcdc; */
-    /* align-content: stretch; */
-    align-content: center;
+    border: #fdfcdc;
     grid-template-columns: auto auto auto auto;
-    /* justify-content: space-evenly,center; */
+    gap: 40px 40px;
     justify-content: center;
 }
 
