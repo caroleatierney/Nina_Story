@@ -3,32 +3,41 @@ html {  /* uses element selector */
     font-family: fantasy;
 }
 
-h2,
+.h2Orange
+{
+    color: #0081a7;
+}
+
 h3,
 ol,
 form{
-    color: #0081a7;
+    color: #fed9b7;
 }
 
 p, li {
     color: #fdfcdc;
 }
 
+.table {
+    display: flex;
+    justify-content: center;
+}
 .homeMainBody {
     display: flex;
     justify-content: center;
     background-color: #0081a7;
-}
-
-#homeFooter {
-    color: white;
-    position: absolute;
-    text-align: center;
-    bottom: 0;
+    min-height: 100%;
     width: 100%;
 }
 
-h1 {
+input, button {
+    border: none;
+    border: 3px #002642 solid;
+    background-color: #fed9b7;
+    color: #f07167;
+}
+
+h1, h2 {
     color: #f07167;
 }
 
@@ -46,25 +55,27 @@ caption {
 
 table {
     border: 5px #002642 solid;
-    color: #553555;
+    color: #0081a7;
+    /* use margins to center the table */
+    margin-left: auto;
+    margin-right: auto;
 }
 
 a {
     color: #00afb9;
-    border: #002642;
+    border: #0081a7;
 }
 
 td {
-    color: white;
-    background-color: #1e787d;
-    background: rgba(244, 151, 142);
-    border: 1px solid;
-    color: #553555;
+    background-color: rgba(244, 151, 142);
+    border: 2px solid;
+    color: #0d393b;
 }
 
 th {
     color: #002642;
     background-color: #FFE19C;
+    border: 2px solid;
 }
 
 nav {
@@ -93,11 +104,23 @@ nav {
 }
 
 .mainFooters {
-    text-align: center;
+    /* text-align: center; */
+    display: flex;
+    flex: content;
+    justify-content: center;
     width: 100%;
     padding: 10px;
     font-size: 22px;
     color: white;
+}
+
+#homeFooter {
+    background-color: ;
+    color: #fed9b7;
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
 }
 
 #max {    
@@ -113,8 +136,7 @@ div.flex-container {
     border: 10px #fdfcdc;
     border-style: solidcolor;
     padding: 20px 40px;
-    background: rgb(170, 104, 104);
-}
+    background: #00afb9;
 
 div.grid-container {
     display: grid;
