@@ -21,3 +21,10 @@ Give attribution
 
 
 https://border-image.com/
+
+### I created my color pallet using the cooolers website
+#### If you add this to a pagewhen designing it hlps because you can click on the color to copy the color value
+    < !-- Coolors Palette Widget -->
+        <script src="https://coolors.co/palette-widget/widget.js"></script>
+        <script data-id="019003223309016004">new CoolorsPaletteWidget("019003223309016004", ["0081a7", "00afb9", "fdfcdc", "fed9b7", "f07167"], "8");
+    </script>
