@@ -90,8 +90,7 @@ nav {
 }
 
 header {
-    /* border-color: #f07167; */
-    border-color: red;
+    border-color: #f07167;
     border-width: 30px;
     border-style: ridge double;
     background-color: #fed9b7;
