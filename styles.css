@@ -4,8 +4,7 @@ html {  /* uses element selector */
     margin: 20px 20px 20px 20px;
 }
 
-#h2DarkBlue
-{
+.darkBlue{
     color: #002642;
 }
 
@@ -28,7 +27,7 @@ body {
     background-color: #0081a7;
     height: 100%;
     font-size: 22px;
-    text-align: center;
+    /* text-align: center; */
 }
 
 input, button {
@@ -101,6 +100,8 @@ header {
 }
 
 footer{
+    display: flex;
+    justify-content: center;
     color: #fed9b7;
     position: relative;
     margin: auto;
@@ -108,9 +109,9 @@ footer{
     width: 100%;
 }
 
-#max {    
-    max-width: 100%;
-    height: auto;
+.center {    
+    display: flex;
+    justify-content: center;
 } 
 
 div.flex-container {
@@ -122,26 +123,6 @@ div.flex-container {
     border-style: solidcolor;
     padding: 20px 40px;
     background: #00afb9;
-
-div.grid-container {
-    display: grid;
-    border: #fdfcdc;
-    grid-template-columns: auto auto auto auto;
-    gap: 40px 40px;
-    justify-content: center;
-}
-
-a.grid-container {
-    display: grid;
-    height:200px;
-    border: #fdfcdc;
-    align-content: stretch;
-    grid-template-columns: auto auto auto auto;
-    /* justify-content: space-between; */
-
-    /* Border??? */
-
-    /* align-items: center; */
 }
 
 figcaption{
@@ -159,14 +140,3 @@ figcaption{
     /* border-image: url('./images/gold1.png') 25 stretch; */
 /* border-image: url('./images/gold2.png') 25 stretch; */
 /* <a href='https://pngpart.com/images/bt/gold-borders-7.png'>Image credit</a>} */
-
-/* .homeHeader {
-    border-color: rgb(240 113 103 .5);
-    border-width: 50px;
-    border-style: ridge double;
-    background-color: rgb(244, 151, 142, .5);
-    color: rgb(240 113 103 .5);
-    text-align: center;
-    width: 100%;
-    height: 130px;
-} */
