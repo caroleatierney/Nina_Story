@@ -4,6 +4,8 @@ html {  /* uses element selector */
     margin: 20px 20px 20px 20px;
 }
 
+* { margin:0; padding:0; box-sizing: border-box;}
+
 .darkBlue{
     color: #002642;
 }
@@ -22,13 +24,16 @@ main {
     padding: 10px;
 }
 
+ol {
+    margin-left: 30px;
+}
+
 iframe {
     border: 5px solid #f07167;
 }
 
 body {
     background-color: #0081a7;
-    height: 100%;
     font-size: 22px;
 }
 
@@ -44,7 +49,7 @@ section {
 
 #imgRound {
     border-style: solid;
-    border-color: #00afb9;;
+    border-color: #00afb9;
     border-radius: 25px;
     border-width: 40px;
 }
@@ -101,7 +106,6 @@ th {
 nav {
     justify-content: center;
     text-align: center;
-    height: 130px;
     font-size: 20px;
 }
 
@@ -121,7 +125,6 @@ footer {
     color: #fed9b7;
     position: relative;
     margin: auto;
-    height: 75px;
     width: 100%;
 }
 
@@ -135,6 +138,7 @@ div.flex-container {
     flex-wrap: wrap;
     justify-content: center;
     justify-content: space-evenly;
+    align-items: center;
     border: 10px #fdfcdc;
     border-style: solidcolor;
     padding: 20px 40px;
@@ -146,47 +150,60 @@ figcaption {
     justify-content: center;
 }
 
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
-
-    nav {
-        height: 10%;
-        font-size: 10%;
-    }
-
-    header {
-    border-width: 10px;
-    font-size: 5px;
-    }
-
-}
-
 @media all and (max-width: 500px) {
-    header {
+    header, footer {
         font-size: 11px;
-        color: blue;
     }
 
     nav {
         height: 40px;
         font-size: 8px;
-        color: red;
     }
 
-    h1 {
+    h1, caption, th {
         font-size: 10px;
-        color: black;
     }
 
-    p {
-        font-size: 8px;
-        color: green;
+    .biggerFont{
+        font-size: 20px; 
+        color: #fed9b7;
     }
 
-    figcaption {
-        font-size: 8px;
-        color: purple;
+    .smallerFont {
+        font-size: 15px;
+        color: #fed9b7;
+
     }
+
+    h2, tr {
+        font-size: 9px;
+    }
+
+    button, input[value=Dog] {
+        font-size: 13px;
+    }
+
+    p, li, figcaption {
+        font-size: 8px;
+    }
+
+    img.scale {
+        width: 100%;
+        height: auto;
+    }
+
+    #imgRound {
+        border-radius: 25px;
+        border-width: 10px;
+    }
+
+    /* input[type=text],input type="radio", textarea
+    {
+        width: 20px;
+    } */
+
+    /* form {
+        width: 20px;
+    } */
+
 }

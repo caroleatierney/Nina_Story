@@ -105,28 +105,29 @@
                 </table>
             </div>
         </div>
-        <br><hr>
+        <br>
         <div>
-            <!-- questionaire form -->
+            <!-- questionaire form with radio and submit input types -->
             <form>
-                <h1>Please complete this survey about your pets</h1>
+                <h1 class="biggerFont" >Please complete this survey about your pets</h1>
                 <!-- note: name attribute is how we refer to the value entered -->
                 <input type="text" name="fullName" placeholder="Your Full Name"> <br>
                 <input type="text" name="petsFullName" placeholder="Your Pet's Full Name(s)"> <br>
 
-                <h1>Do you have any of these pets?</h1>
-                <input type="radio" name="typeOfPets" value="Dog"> Dog <br>
-                <input type="radio" name="typeOfPets" value="Cat"> Cat <br>
-                <input type="radio" name="typeOfPets" value="Bunny"> Bunny <br>
-                <input type="radio" name="typeOfPets" value="Guinea Pig"> Guinea Pig <br>
-                <input type="radio" name="typeOfPets" value="Fish"> Fish <br>
-                <input type="submit" value="Submit Questionaire"> <br>
+                <h1 class="biggerFont">Do you have any of these pets?</h1>
+                <div class="smallerFont">
+                    <input type="radio" name="typeOfPets" value="Dog"> Dog <br>
+                    <input type="radio" name="typeOfPets" value="Cat"> Cat <br>
+                    <input type="radio" name="typeOfPets" value="Bunny"> Bunny <br>
+                    <input type="radio" name="typeOfPets" value="Guinea Pig"> Guinea Pig <br>
+                    <input type="radio" name="typeOfPets" value="Fish"> Fish <br>
+                    <input type="submit" value="Submit Questionaire"> <br>
+                </div>
             </form>
 
             <br>
             <!-- define button -->
             <button> Click me if you want your own pet website!</button>
-            <br>
         </div>
     </main>
 
