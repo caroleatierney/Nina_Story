@@ -1,7 +1,7 @@
 # Week8HTMLWebsiteWithCss: Website built usimng external CSS
 
 ## The website needs:
-- This assssignment is to style the week 7 website with an external cascading style sheet. (no inline or internal styling)
+- This assignment is to style the week 7 website with an external cascading style sheet. (no inline or internal styling)
 - All elements need to be styled.
 - Style rules need to be applied to the class, id and element selectors.
 
