@@ -4,8 +4,10 @@ html {  /* uses element selector */
     margin: 20px 20px 20px 20px;
 }
 
+/* applied to whoe document */
 * { margin:0; padding:0; box-sizing: border-box;}
 
+/* uses class selector */
 .darkBlue{
     color: #002642;
 }
@@ -35,6 +37,8 @@ ol {
 /* uses element selector */
 iframe {
     border: 5px solid #f07167;
+    width: 100%;
+    height: auto;
 }
 
 /* uses element selector */
