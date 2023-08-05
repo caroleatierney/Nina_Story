@@ -4,126 +4,8 @@ html {  /* uses element selector */
     margin: 20px 20px 20px 20px;
 }
 
-/* applied to whoe document */
+/* applied to whole document */
 * { margin:0; padding:0; box-sizing: border-box;}
-
-/* uses class selector */
-.darkBlue{
-    color: #002642;
-}
-
-/* uses element selector */
-h3,
-ol,
-form{
-    color: #fed9b7;
-}
-
-/* uses element selector */
-p, li {
-    color: #fdfcdc;
-}
-
-/* uses element selector */
-main {
-    padding: 10px;
-}
-
- /* uses element selector */
-ol {
-    margin-left: 30px;
-}
-
-/* uses element selector */
-iframe {
-    border: 5px solid #f07167;
-    width: 100%;
-    height: auto;
-}
-
-/* uses element selector */
-body {
-    background-color: #0081a7;
-    font-size: 22px;
-}
-
-/* uses element selector */
-input, button {
-    border: 3px #002642 solid;
-    background-color: #fed9b7;
-    color: #f07167;
-}
-
-/* uses element selector */
-section {
-    padding-top: 60px;
-}
-
-/* uses id selector */
-#imgRound {
-    border-style: solid;
-    border-color: #00afb9;
-    border-radius: 25px;
-    border-width: 40px;
-}
-
-/* uses element selector */
-img {
-    border: 8px #fed9b7 solid;
-}
-
-/* uses element selector */
-h1 {
-    color: #f07167;
-}
-
-/* uses element selector */
-h2 {
-    color: #fed9b7;
-}
-
-/* uses element selector */
-tr {
-    text-align: center;
-    padding: 10px;
-    color: #0d393b
-}
-
-/* uses element selector */
-caption {
-    text-align: center;
-    color: #0d393b;
-    font-size: 33px;
-}
-
-/* uses element selector */
-table {
-    border: 5px #002642 solid;
-    color: #0081a7;
-    /* use margins to center the table */
-    margin-left: auto;
-    margin-right: auto;
-}
-
-/* uses element selector */
-a {
-    color: #00afb9;
-    border: #0081a7;
-}
-
-/* uses element selector */
-td {
-    background-color: rgba(244, 151, 142);
-    border: 2px solid;
-    color: #0d393b;
-}
-
-/* uses element selector */
-th {
-    color: #002642;
-    background-color: #FFE19C;
-    border: 2px solid;
-}
 
 /* uses element selector */
 nav {
@@ -151,6 +33,124 @@ footer {
     position: relative;
     margin: auto;
     width: 100%;
+}
+
+/* uses element selector */
+main {
+    padding: 10px;
+}
+
+/* uses element selector */
+section {
+    padding-top: 60px;
+}
+
+/* uses class selector */
+.darkBlue{
+    color: #002642;
+}
+
+/* uses element selector */
+h3,
+ol,
+form{
+    color: #fed9b7;
+}
+
+/* uses element selector */
+p, li {
+    color: #fdfcdc;
+}
+
+/* uses element selector */
+ol {
+    margin-left: 30px;
+}
+
+/* uses element selector */
+iframe {
+    border: 5px solid #f07167;
+    width: 100%;
+    height: auto;
+}
+
+/* uses element selector */
+body {
+    background-color: #0081a7;
+    font-size: 22px;
+}
+
+/* uses element selector */
+input, button {
+    border: 3px #002642 solid;
+    background-color: #fed9b7;
+    color: #f07167;
+}
+
+/* uses id selector */
+#imgRound {
+    border-style: solid;
+    border-color: #00afb9;
+    border-radius: 25px;
+    border-width: 40px;
+}
+
+/* uses element selector */
+img {
+    border: 8px #fed9b7 solid;
+}
+
+/* uses element selector */
+h1 {
+    color: #f07167;
+}
+
+/* uses element selector */
+h2 {
+    color: #fed9b7;
+}
+
+/* uses element selector */
+caption {
+    text-align: center;
+    color: #0d393b;
+    font-size: 33px;
+}
+
+/* uses element selector */
+table {
+    border: 5px #002642 solid;
+    color: #0081a7;
+    /* use margins to center the table */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* uses element selector */
+a {
+    color: #00afb9;
+    border: #0081a7;
+}
+
+/* uses element selector */
+tr {
+    text-align: center;
+    padding: 10px;
+    color: #0d393b
+}
+
+/* uses element selector */
+th {
+    color: #002642;
+    background-color: #FFE19C;
+    border: 2px solid;
+}
+
+/* uses element selector */
+td {
+    background-color: rgba(244, 151, 142);
+    border: 2px solid;
+    color: #0d393b;
 }
 
 /* uses class selector */
