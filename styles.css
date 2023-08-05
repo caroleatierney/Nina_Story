@@ -18,23 +18,39 @@ p, li {
     color: #fdfcdc;
 }
 
-.table {
-    display: flex;
-    justify-content: center;
+main {
+    padding: 10px;
+}
+
+iframe {
+    border: 5px solid #f07167;
 }
 
 body {
     background-color: #0081a7;
     height: 100%;
     font-size: 22px;
-    /* text-align: center; */
 }
 
 input, button {
-    border: none;
     border: 3px #002642 solid;
     background-color: #fed9b7;
     color: #f07167;
+}
+
+section {
+    padding-top: 60px;
+}
+
+#imgRound {
+    border-style: solid;
+    border-color: #00afb9;;
+    border-radius: 25px;
+    border-width: 40px;
+}
+
+img {
+    border: 8px #fed9b7 solid;
 }
 
 h1 {
@@ -99,7 +115,7 @@ header {
     color: #0081a7;
 }
 
-footer{
+footer {
     display: flex;
     justify-content: center;
     color: #fed9b7;
@@ -125,18 +141,7 @@ div.flex-container {
     background: #00afb9;
 }
 
-figcaption{
+figcaption {
     display:flex;
     justify-content: center;
 }
-
-/* 
-.borderimage {
-    border-width: 50px;
-    border-style: solid;
-    padding: 15px;
-    border-image: url('./images/border.png');
-    background-repeat: no-repeat;
-    /* border-image: url('./images/gold1.png') 25 stretch; */
-/* border-image: url('./images/gold2.png') 25 stretch; */
-/* <a href='https://pngpart.com/images/bt/gold-borders-7.png'>Image credit</a>} */
