@@ -151,9 +151,42 @@ figcaption {
   and (max-device-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
 
-    header {
-    border-width: 10px;
-    font-size: 11px;
+    nav {
+        height: 10%;
+        font-size: 10%;
     }
 
+    header {
+    border-width: 10px;
+    font-size: 5px;
+    }
+
+}
+
+@media all and (max-width: 500px) {
+    header {
+        font-size: 11px;
+        color: blue;
+    }
+
+    nav {
+        height: 40px;
+        font-size: 8px;
+        color: red;
+    }
+
+    h1 {
+        font-size: 10px;
+        color: black;
+    }
+
+    p {
+        font-size: 8px;
+        color: green;
+    }
+
+    figcaption {
+        font-size: 8px;
+        color: purple;
+    }
 }
