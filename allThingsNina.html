@@ -33,10 +33,10 @@
                 <li>Go to the beach</li>
             </ol>
         </div>
-        <br><hr><br>
+        <br><br><br>
         
         <div>
-            <table> <!-- Define Table with links inside -->
+            <table>
                 <caption>Nina's favorite toy and apparatus links</caption>
                 <div class="table">
 
@@ -95,6 +95,8 @@
                             target="_blank">Lamb Chop URL</a>
                         <td>Time to buy a new one!
                     </tr>
+
+                    <!--row 5 -->
                     <tr>
                         <th>Shark Life Jacket
                         <td>Glorius Kek
@@ -106,24 +108,22 @@
                 </table>
             </div>
         </div>
-        <br><hr><br>
+        <br><br><br>
 
-        <div>
+        <div id="form">
             <!-- questionaire form with radio and submit input types -->
             <form class="phoneFont">
                 <h1>Please complete this survey about your pets</h1>
-                <!-- note: name attribute is how we refer to the value entered -->
                 <input type="text" name="fullName" placeholder="Your Full Name"> <br>
-                <input type="text" name="petsFullName" placeholder="Your Pet's Full Name(s)"> <br>
+                <input type="text" name="petsFullName" placeholder="Your Pet's Full Name(s)"> <br><br><br>
 
-                <h1>Do you have any of these pets?</h1>
-                <div>
-                    <input type="radio" name="typeOfPets" value="Dog"> Dog <br>
-                    <input type="radio" name="typeOfPets" value="Cat"> Cat <br>
-                    <input type="radio" name="typeOfPets" value="Bunny"> Bunny <br>
-                    <input type="radio" name="typeOfPets" value="Guinea Pig"> Guinea Pig <br>
-                    <input type="radio" name="typeOfPets" value="Fish"> Fish <br>
-                    <input type="submit" value="Submit Questionaire"> <br>
+                <h1>If you own an Aussie, what color coat does your Aussie have?</h1>
+                <div id="whatColor">
+                    <input type="radio" name="typeOfPets" value="Black"> Black <br>
+                    <input type="radio" name="typeOfPets" value="Blue Merle"> Blue Merle <br>
+                    <input type="radio" name="typeOfPets" value="Red"> Red <br>
+                    <input type="radio" name="typeOfPets" value="Red Merle"> Red Merle <br>
+                    <input id="submit" type="submit" value="Submit Questionaire"> <br>
                 </div>
             </form>
 

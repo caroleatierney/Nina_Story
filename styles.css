@@ -1,20 +1,17 @@
-html {  /* uses element selector */
+html { 
     height: 100%;
     font-family: fantasy;
     margin: 20px 20px 20px 20px;
 }
 
-/* applied to whole document */
 * { margin:0; padding:0; box-sizing: border-box;}
 
-/* uses element selector */
 nav {
     justify-content: center;
     text-align: center;
     font-size: 20px;
 }
 
-/* uses element selector */
 header {
     border-color: #f07167;
     border-width: 30px;
@@ -25,7 +22,6 @@ header {
     color: #0081a7;
 }
 
-/* uses element selector */
 footer {
     display: flex;
     justify-content: center;
@@ -35,26 +31,23 @@ footer {
     width: 100%;
 }
 
-/* uses element selector */
-main {
-    padding: 10px;
-}
-
-/* uses element selector */
 section {
     padding-top: 60px;
 }
 
-/* uses class selector */
 .darkBlue{
     color: #002642;
 }
 
-/* uses element selector */
 h3,
 ol,
-form{
+form {
     color: #fed9b7;
+}
+
+/* not working */
+form {
+    justify-content: center;
 }
 
 /* uses element selector */
@@ -81,7 +74,7 @@ body {
 }
 
 /* uses element selector */
-input, button {
+input, button, #submit {
     border: 3px #002642 solid;
     background-color: #fed9b7;
     color: #f07167;
@@ -215,4 +208,8 @@ figcaption {
         padding: 8px;
         font-size: 13px;
     }
+}
+
+#whatColor {
+
 }
