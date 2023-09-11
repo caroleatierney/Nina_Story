@@ -1,25 +1,41 @@
-html { 
-    height: 100%;
+/* = = = = = = = = = EVERYTHING = = = = = = = = = =*/
+* { 
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
     font-family: fantasy;
-    margin: 20px 20px 20px 20px;
 }
 
-* { margin:0; padding:0; box-sizing: border-box;}
+/* = = = = = = = = = ALL PAGES = = = = = = = = = = */
+html,
+body {
+    height: 100%;
+    background-color: #0081a7;
+    font-size: 22px;
+}
 
 nav {
     justify-content: center;
     text-align: center;
     font-size: 20px;
+    width: 90%;
 }
 
 header {
+    display: flex;
+    justify-content: center;
     border-color: #f07167;
     border-width: 30px;
     border-style: ridge double;
     background-color: #fed9b7;
-    text-align: center;
     font-size: 22px;
     color: #0081a7;
+    margin: 2rem;
+}
+
+
+.babyAspirin {
+    color: #fed9b7;
 }
 
 footer {
@@ -31,86 +47,64 @@ footer {
     width: 100%;
 }
 
-section {
-    padding-top: 60px;
+img {border: 1rem #fed9b7 solid;}
+
+h1,
+.forms {
+    color: #f07167;
 }
 
-.darkBlue{
-    color: #002642;
-}
-
+h2,
 h3,
 ol,
 form {
     color: #fed9b7;
 }
 
-/* not working */
-form {
-    justify-content: center;
+/* = = = = = = = = = = INDEX = = = = = = = = = = = */
+/* This allows the image to be scaled */
+.mugShot {
+    max-width: 100%;
+    height: auto;
 }
 
-/* uses element selector */
+.backgroundImage {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.darkBlue {
+    color: #002642;
+}
+
+/* = = = = = = = = ALL THINGS NINA = = = = = = = = */
+.formCenter {
+    text-align: center;
+}
+
 p, li {
     color: #fdfcdc;
 }
 
-/* uses element selector */
 ol {
     margin-left: 30px;
 }
 
-/* uses element selector */
 iframe {
     border: 5px solid #f07167;
     width: 100%;
     height: auto;
 }
 
-/* uses element selector */
-body {
-    background-color: #0081a7;
-    font-size: 22px;
-}
-
-/* uses element selector */
 input, button, #submit {
     border: 3px #002642 solid;
     background-color: #fed9b7;
     color: #f07167;
 }
 
-/* uses id selector */
-#imgRound {
-    border-style: solid;
-    border-color: #00afb9;
-    border-radius: 25px;
-    border-width: 40px;
-}
-
-/* uses element selector */
-img {
-    border: 8px #fed9b7 solid;
-}
-
-/* uses element selector */
-h1 {
-    color: #f07167;
-}
-
-/* uses element selector */
-h2 {
-    color: #fed9b7;
-}
-
-/* uses element selector */
-caption {
-    text-align: center;
-    color: #0d393b;
-    font-size: 33px;
-}
-
-/* uses element selector */
 table {
     border: 5px #002642 solid;
     color: #0081a7;
@@ -119,44 +113,32 @@ table {
     margin-right: auto;
 }
 
-/* uses element selector */
 a {
     color: #00afb9;
     border: #0081a7;
 }
 
-/* uses element selector */
 tr {
     text-align: center;
     padding: 10px;
     color: #0d393b
 }
 
-/* uses element selector */
 th {
     color: #002642;
     background-color: #FFE19C;
     border: 2px solid;
 }
 
-/* uses element selector */
 td {
     background-color: rgba(244, 151, 142);
     border: 2px solid;
     color: #0d393b;
 }
 
-/* uses class selector */
-.center {    
-    display: flex;
-    justify-content: center;
-} 
-
-/* uses class selector */
-div.flex-container {
+.flex-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     justify-content: space-evenly;
     align-items: center;
     border: 10px #fdfcdc;
@@ -165,12 +147,24 @@ div.flex-container {
     background: #00afb9;
 }
 
-/* uses element selector */
+.flex-row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
 figcaption {
     display:flex;
     justify-content: center;
 }
 
+.gform {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* = = = = = = = = = = MEDIA QUERIES = = = = = = = = = = */
 /* Use this media query to be able to view on my iPhone by adjusting sizes */
 @media all and (max-width: 500px) {
     html {
@@ -198,11 +192,6 @@ figcaption {
         height: auto;
     }
 
-    #imgRound {
-        border-radius: 25px;
-        border-width: 10px;
-    }
-
     caption {
         color: #fed9b7;
         padding: 8px;
@@ -210,6 +199,15 @@ figcaption {
     }
 }
 
-#whatColor {
+/* center on div */
+.center {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
 
+/* = = = = = = = = THE NINA STORY = = = = = = = = =*/
+#findingNina {
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
