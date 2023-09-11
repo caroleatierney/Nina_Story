@@ -33,7 +33,6 @@ header {
     margin: 2rem;
 }
 
-
 .babyAspirin {
     color: #fed9b7;
 }
@@ -41,8 +40,8 @@ header {
 footer {
     display: flex;
     justify-content: center;
+    align-content: center;
     color: #fed9b7;
-    position: relative;
     margin: auto;
     width: 100%;
 }
@@ -86,7 +85,7 @@ form {
 }
 
 p, li {
-    color: #fdfcdc;
+    color: #fed9b7;
 }
 
 ol {
@@ -147,21 +146,34 @@ td {
     background: #00afb9;
 }
 
-.flex-row {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
-
 figcaption {
     display:flex;
     justify-content: center;
 }
 
-.gform {
+.flex-row, .gform {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.sideBorder {
+    border-right-style: solid;
+    border-width: 5px;
+    padding-right: 8%;
+    border-color: #f07167;
+}
+
+/* center on div */
+.center {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+/* = = = = = = = = THE NINA STORY = = = = = = = = =*/
+#findingNina {
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 /* = = = = = = = = = = MEDIA QUERIES = = = = = = = = = = */
@@ -170,11 +182,11 @@ figcaption {
     html {
         height: 100%;
         font-family: Arial;
-        margin: 20px 20px 20px 20px;
+        /* margin: 20px 20px 20px 20px; */
     }
 
-    header, footer, button, figcaption, li, p, h2, tr, caption, p, li {
-        font-size: 11px;
+    header, footer, button, figcaption, li, p, h2, h4, tr, caption, p, li {
+        font-size: 1rem;
     }
 
     figcaption, h1, th {
@@ -197,17 +209,4 @@ figcaption {
         padding: 8px;
         font-size: 13px;
     }
-}
-
-/* center on div */
-.center {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-}
-
-/* = = = = = = = = THE NINA STORY = = = = = = = = =*/
-#findingNina {
-    padding-left: 2rem;
-    padding-right: 2rem;
 }
