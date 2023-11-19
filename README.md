@@ -1,4 +1,6 @@
-# Week8HTMLWebsiteWithCss: Website built usimng external CSS
+# The Nina Story
+
+Week 8 HTML Website With Css: Website built using external CSS
 
 ## The website needs:
 - This assignment is to style the week 7 website with an external cascading style sheet. (no inline or internal styling)
