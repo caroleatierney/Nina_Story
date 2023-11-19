@@ -46,7 +46,11 @@ footer {
     width: 100%;
 }
 
-img {border: 1rem #fed9b7 solid;}
+img {
+    border: 1rem #fed9b7 solid;
+    /* width: 50%;
+    height: 50%; */
+}
 
 h1,
 .forms {
@@ -204,6 +208,13 @@ figcaption {
         height: auto;
     }
 
+    /* scale {
+        /* width: 100%;
+            */
+        width: 10%;
+        height: 10%;
+    }
+     */
     caption {
         color: #fed9b7;
         padding: 8px;
